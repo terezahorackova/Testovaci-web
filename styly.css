@@ -1,0 +1,57 @@
+/*Toto je komentar, slouzi pouze pro poznamky. Svoje styly piste pod nej*/
+/*Napriklad:*/
+/*h1 { color: red; }*/
+body {
+	background-color: #FFD3AA;
+}
+h1 a {
+	text-decoration: none;
+	color: #552900;
+}
+aside {
+	float: left;
+	width: 30%;
+}
+aside img {
+	width: 250px;
+}
+article {
+	float: right;
+	width: 70%;
+}
+.navigace {
+	background-color: #552900;
+	margin-top: 40px;
+}
+.navigace li {
+	font-size: 32px;
+	margin-left: 70px;
+	display: inline-block;
+	padding: 5px;
+}
+.navigace li a {
+	color: #D49D6A;
+	text-decoration: none;
+}
+.navigace ul {
+	width: 700px;
+	margin: auto;
+	list-style: none;
+	text-align: center;
+}
+section {
+	margin: auto;
+	padding: 10px;
+	width: 70%;
+}
+footer {
+	position: fixed;
+	bottom: 0;
+}
+table img {
+	float: left;
+	width: 75%;
+}
+table th {
+	text-align: left;
+}
