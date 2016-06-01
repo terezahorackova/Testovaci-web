@@ -1,46 +1,365 @@
-<!DOCTYPE HTML>
-<html>
+<!doctype html>
+<html lang="cs">
 <head>
-  <meta charset="utf-8">
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Kočičí chůva</title>
-  <meta name="description" content="Váš kočičí miláček v dobrých rukách">
-  <meta name="author" content="Tereza Horáčková">
+	<title>Holka pro všechno</title>
+	<meta name="description" content="Vaše virtuální asistentka">
 
-  <link rel="stylesheet" href="styly.css">
+	<!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Muj styl -->
+    <link href="css/style.css" rel="stylesheet">
+
 </head>
-<body>
-	<div class="navigace">
-		<nav>
-			<ul>
-				<li><a href="ome.html">O mě</a></li>
-				<li><a href="sluzby.html">Služby</a></li>
-				<li><a href="kontakty.html">Kontakt</a></li>
-			</ul>
-		</nav>
+
+
+<body data-spy="scroll" data-target="#menu" data-offset="100">
+
+	<!-- Hlavicka a Hlavni menu -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+					<span class="sr-only">Přepnout menu</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Holka pro všechno : Vaše virtuální asistentka</a>
+		    </div><!-- navbar-header -->
+
+			<div id="menu" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#omne">O mně</a></li>
+					<li><a href="#sluzby">Služby</a></li>
+					<li><a href="#reference">Reference</a></li>
+					<li><a href="#kontakt">Kontakt</a></li>
+				</ul>
+			</div><!-- menu -->
+
+		</div><!--.container -->
+	</nav><!-- .navbar -->
+
+
+
+	<!-- Obrazek -->
+	<div class="jumbotron">
+  		<div class="container">
+			<h1 style="text-align: center">Tereza Horáčková</h1>
+			<h2 style="text-align: center">Vaše virtuální asistentka</h2>
+			<div class="media-left hidden-xs hidden-sm">
+				<img class="img-circle" src="img/terezahorackova.jpg" width="200" height="200" alt="Tereza Horáčková">
+			</div>
+			<div class="media-body media-middle media-jumbotron">
+			  	<p style="text-align: justify"><big>Mým denním chlebem je administrativa, organizace kalendáře a schůzek napříč časovými pásmy, zajištění zahraničních cest, plánování eventů a firemních akcí, personalistika či zajištění chodu kanceláře firmy. Díky svým organizačním dovednostem, spolehlivosti a flexibilitě věřím, že splním každé vaše přání.</big></p>
+			</div>
+			<p style="text-align: center"><a class="btn tlacitko btn-lg" href="#sluzby" role="button">Nabízené služby</a></p>
+		</div>
 	</div>
-	<section>
-		<aside>
-			<header>
-				<h1><a href="index.html">Kočičí chůva</a></h1>
-			</header>
-			<img src="http://www.portal-kotata-noutonice.estranky.cz/img/picture/1/kote-spi-na-zadech.preview.jpg">
-		</aside>
-		<article>
-			<header>
-				<h1>Váš kočičí miláček v dobrých rukách</h1>
-				<p>Na víkend i na měsíc, přesně dle Vašich potřeb a přání</p>
-			</header>
-			<h1>Kdo jsme</h1>
-			<p>Jsme profesionální služba specializující se na hlídání koček přímo u Vás doma. Náš tým se skládá ze zkušených chovatelek a velkých milovnic koček. Na trhu působíme od roku 2011, operujeme 365 dní v roce.</p>
-			<h1>Proč hlídání koček místo kočičího hotelu?</h1>
-			<p>Kočky jsou vázané na prostředí, ve kterém žijí - tedy Váš domov. Cítí se tam bezpečně, protože již dobře znají všechna jeho zákoutí a pachy. Přemístění kočky, byť i do nejluxusnějšího kočičího hotelu, pro ni bude velkým stresem.</p>
-			<h1>Naše vize</h1>
-			<p>Vaše láska ke kočkám Vás již nijak neomezuje v pohybu, protože jim během Vaší nepřítomnosti přímo v jejich domově zajistí péči profesionálové, kterým plně důvěřujete.</p>
-		</article>
-	</section>
-	<footer>
-		<p>Copyright 2016 Tereza Horáčková</p>
-	</footer>
+
+
+  
+	<!-- Poslední realizované zakázky -->
+	<div id="poslednizakazky">
+
+	<div class="container">
+
+		<h2>Poslední realizované zakázky</h2>
+
+		<div class="row">
+
+		<div class="col-xs-12">
+
+			<table class="table table-bordered">
+				<tbody>
+					<tr>
+						<td><b>Zakázka</b></td>
+						<td><b>Klient</b></td>
+						<td style="text-align: right"><b>Cena</b></td>
+					</tr>
+					<tr>
+						<td>Tvorba životopisu dle US standardů</td>
+						<td>Seculu.com</td>
+						<td style="text-align: right">600 Kč</td>
+					</tr>
+					<tr>
+						<td>Úprava CSS (webová šablona Webnode)</td>
+						<td>Hana Tosková</td>
+						<td style="text-align: right">1000 Kč</td>
+					</tr>
+					<tr>
+						<td>Tvorba životopisu dle US standardů</td>
+						<td>Seculu.com</td>
+						<td style="text-align: right">600 Kč</td>
+					</tr>
+					<tr>
+						<td>Sestavení motivačního dopisu a úprava životopisu v angličtině</td>
+						<td>Miroslav Straka</td>
+						<td style="text-align: right">500 Kč</td>
+					</tr>
+					<tr>
+						<td>Správa webu – překlad CZ/SK, překlad a korekce CZ/EN</td>
+						<td>Gepards@Madison spol. s r.o.</td>
+						<td style="text-align: right">1000 Kč</td>
+					</tr>
+					<tr>
+						<td>Vložení inzerátů na inzertní servery</td>
+						<td>next CRE s.r.o.</td>
+						<td style="text-align: right">250 Kč</td>
+					</tr>
+				</tbody>
+			</table>
+
+		</div><!-- col -->
+
+		</div><!-- .row -->
+
+	</div><!-- .container -->
+
+	</div><!-- konec #poslednizakazky -->
+
+
+
+	<!-- O mně -->
+	<div id="omne">
+    
+	<div class="container">
+
+		<h2>O mně</h2>
+               
+		<h3>Vzdělání</h3>
+		<p style="text-align: justify">Vystudovala jsem <strong>Vysokovou školu obchodní</strong> a Vyšší odbornou školu hotelnictví a turismu. V rámci studia jsem absolvovala kurz Diversity managementu, který se zaměřuje na <strong>specifika klientů různých národností a jejich chování</strong>. Pokud se připravujete na <strong>jednání se zahraničními klienty</strong>, neváhejte se na mne proto obrátit. Vzhledem k tomu, že jsem absolvovala i kurz Etického managementu, <strong>poradím vám, jak se správně chovat</strong>.</p><br>
+
+		<h3>Zkušenosti</h3>
+		<p style="text-align: justify">Od roku 2013 spolupracuji s US start-upem. Mám na starost <strong>fungování pražské pobočky a péči o její zaměstnance</strong>, nabírání a výběr kandidátů na pohovory. Pro firmu organizuji různé akce – <strong>týmová jednání, teambuildingy, ale i celofiremní setkání</strong> zaměstnanců z 20 států světa (v loňském roce to bylo pro více než 100 osob). Pracovala jsem jako virtuální asistentka pro zakladatele firmy a CEO v NYC (aktuálně je tato pozice neobsazena).</p><br>
+		<p style="text-align: justify">Po ukončení studia jsem téměř 5 let pracovala na odboru mezinárodních vztahů Kanceláře Poslanecké sněmovny Parlamentu ČR. Mojí náplní práce bylo <strong>zajištění zahraničních cest</strong> (tj. zajištění letenek, ubytování, pojištění, devizových prostředků, programu atd.), <strong>organizace schůzek a jednání</strong>, různých <strong>společenských akcí</strong>, <strong>pobytů zahraničních delegací v ČR</strong> a dále také evidence zahraničních cest, pošty a faktur, objednávky překladů a tlumočení a v neposlední řadě každodenní administrativa.</p><br>
+
+		<h3>Schopnosti a dovednosti</h3>
+		<p style="text-align: justify">Od roku 2009 <strong>spravuji webové stránky</strong> několika firem (velkoobchod, oční optiky, prodejna elektronických cigaret), které jsem vytvořila pomocí šablon Webnode. K daných webovým stránkám vedu také <strong>Facebookové profily</strong>. Spravuji nejen Facebook, ale také Twitter nebo LinkedIn. Založila jsem několik <strong>blogů</strong>, které pravidelně aktualizuji pomocí redakčního systému WordPress. Od roku 2015 spravuji také <strong>e-shop</strong> s brýlovými obrubami a vytvořila jsem <strong>firemní intranet</strong> a webové stránky na platformě Google Sites.</p><br>
+  
+  		<p style="text-align: justify">Mám vynikající přehled o <strong>MS Office</strong> (Word, Excel, Power Point), <strong>Google Apps</strong> (Gmail, Drive, Calendar, Docs, Sheets, Slides, Forms, Keep, Hangouts nebo Sites), cloudových úložištích a nástrojích na úpravu souborů či převod jejich formátů. Umím vytvářet <strong>infografiky</strong>.</p><br>
+  
+  		<p style="text-align: justify">Mám zkušenosti s aplikacemi jako <strong>Trello a Redbooth</strong> pro správu projektů; <strong>Slack, Skype nebo Zoom</strong> pro tele- a videokomunikaci; <strong>Toggl</strong> pro správu a měření času stráveného na projektech; <strong>SurveyMonkey</strong> pro tvorbu dotazníků; <strong>MailChimp</strong> pro email marketing (newslettery); <strong>Zapier</strong> na spojování webových aplikací; <strong>Lever</strong> pro správu uchazečů o zaměstnání a další.</p>
+          
+	</div><!-- .container -->      
+
+	</div><!-- konec #omne -->
+
+
+
+	<!-- Sluzby -->
+	<div id="sluzby">
+    
+	<div class="container">
+
+		<h2>Služby</h2>
+  
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<div class="sluzby">
+					<img src="img/administrativa.jpg" alt="Administrativa">
+					<h3>Administrativa</h3>
+					<p style="text-align: center">Vyřizování elektronické korespondence a telefonátů, vytváření textů, tabulek nebo prezentací, vyhledávání informací na webu, organizace diáře, přepis a digitalizace dat, objednávky zboží a služeb, zajištění tvorby propagačních materiálů.</p>
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<div class="sluzby">
+					<img src="img/organizace.jpg" alt="Organizace">
+					<h3>Organizace</h3>
+					<p style="text-align: center">Plánování schůzek, organizace meetingů a konferencí, zajišování služebních cest, vyhledání dopravního spojení, rezervace jízdenek, letenek a ubytování, pořádání oslav a večírků, zajištění teambuildingových akcí.</p>
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<div class="sluzby">
+					<img src="img/personalistika.jpg" alt="Personalistika">
+					<h3>Personalistika</h3>
+					<p style="text-align: center">Koordinace výběru nových zaměstnanců, tvorba inzerce pracovních pozic a její umístění, posuzování životopisů kandidátů, preselekce vhodných kandidátů, telefonické a videokonfereční pohovory (Skype, Hangout).</p>
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<div class="sluzby">
+					<img src="img/internet.jpg" alt="Internetové služby">
+					<h3>Internetové služby</h3>
+					<p style="text-align: center">Tvorba webu či e-shopu (HTML/CSS, šablony), správa webu či e-shopu, správa sociálních sítí (Facebook, Twitter, LinkedIn atd.), správa reklamních kampaní, psaní článků na blog, rozesílání newsletterů.</p>
+				</div>
+			</div>
+            
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<div class="sluzby">
+					<img src="img/rychlovka.jpg" alt="Jednorázové služby">
+					<h3>Jednorázové služby</h3>
+					<p style="text-align: center">Sestavení životopisu nebo sepsání motivačního dopisu (v českém i anglickém jazyce) a jejich následná kontrola, překlady textů, pomoc při jednáních se zahraničními partnery, pochůzky a komunikace s úřady, zastupování na základě plné moci.</p>
+				</div>
+			</div>
+            
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<div class="sluzby">
+					<img src="img/extra.jpg" alt="Něco navíc">
+					<h3>Něco navíc</h3>
+					<p style="text-align: center">Zajištění dárků pro firemní partnery a zaměstnance, rezervace restaurací a vstupenek, tipy na výlety, doprava významých klientů a přeprava drobného zboží po Praze.</p>
+				</div>
+			</div>
+
+		</div><!-- .row -->
+
+	</div><!-- .container -->
+
+	</div><!-- konec #sluzby -->
+
+
+
+	<!-- Reference -->
+	<div id="reference">
+
+	<div class="container">
+
+		<h2>Reference</h2>
+
+		<div class="row">
+
+			<div class="col-xs-12 col-sm-6">
+				<div class="media zakaznik">
+					<div class="media-left">
+						<img class="img-circle" src="img/Seculu.jpg" alt="Seculu.com">
+					</div>
+					<div class="media-body">
+						<p style="text-align: justify">Moc děkujeme za spolupráci, Tereza vypracovala CV dle našich požadavků a to neuvěřitelně rychle. Rozhodně doporučujeme, rádi využijeme jejích služeb i v budoucnu.<br>
+						<em>- Seculu.com</em></p>
+					</div>
+				</div><!-- .media -->
+			</div><!-- .col -->
+
+			<div class="col-xs-12 col-sm-6">
+				<div class="media zakaznik">
+					<div class="media-left">
+						<img class="img-circle" src="img/MiriamBachyncova.jpg" alt="Mgr. Miriam Bachyncová, Právní Servis 24">
+					</div>
+					<div class="media-body">
+						<p style="text-align: justify">Výborná spolupráce, práce udělaná na čas, výborná komunikace a spolehlivost, na rozdíl od jiných dodavatelů a zkušeností. Určitě doporučuji!<br>
+						<em>- Mgr. Miriam Bachyncová, Právní Servis 24</em></p>
+					</div>
+				</div><!-- .media -->
+			</div><!-- .col -->
+		</div><!-- .row -->
+
+		<div class="row">
+  
+			<div class="col-xs-12 col-sm-6">
+				<div class="media zakaznik">
+					<div class="media-left">
+						<img class="img-circle" src="img/VaclavKubata.jpg" alt="Ing. Václav Kubata, Poslanec Parlamentu ÈR">
+					</div>
+				<div class="media-body">
+					<p style="text-align: justify">Měl jsem tu čest vést českou parlamentní delegaci na zasedání Parlamentního shromáždění Rady Evropy ve Štrasburku. Rád bych poděkoval za mimořádnou pomoc, ochotu a profesionalitu, kterou prokázala Tereza Horáčková. Byla nám velkou oporou při celé organizaci naší mise a i díky ní považuji naši účast na zasedání za mimořádně úspěšnou. Ještě jednou děkuji a přeji Vám mnou úspěchů v další práci.<br>
+					<em>- Ing. Václav Kubata, Poslanec Parlamentu ČR</em></p>
+				</div>
+			</div><!-- .media -->
+			</div><!-- .col -->
+
+			<div class="col-xs-12 col-sm-6">
+				<div class="media zakaznik">
+					<div class="media-left">
+						<img class="img-circle" src="img/MiklosCsemy.jpg" alt="Miklós Csémy, Pond5">
+					</div>
+				<div class="media-body">
+					<p style="text-align: justify">Tereza vyniká při organizování složitých situací a událostí. Při práci na administrativních úkolech má silný smysl pro proces a snaží se najít řešení, která by přinesla společnosti to nejlepší. Je aktivní a nezávislá ve své práci. Tereza má velmi silnou pracovní etiku, dobře plánuje a je důsledná v plnění svých úkolů. Tereza se nevyhýbá zodpovědnosti a je vynikající ve své schopnosti pro organizaci a dokončování rozdělaných úkolů.<br>
+					<em>- Miklós Csémy, Pond5</em></p>
+				</div>
+				</div><!-- .media -->
+			</div><!-- .col -->
+
+		</div><!-- .row -->
+
+	</div><!-- .container -->
+
+	</div><!-- konec #reference -->
+
+
+
+	<!-- Fotogalerie -->
+	<div id="foto">
+
+		<div class="container">
+
+		<h2>Ukázky práce</h2>
+
+		<div class="row">
+  			<div class="col-xs-6 col-sm-4 col-md-2">
+    		<a href="img/Webnode_Horacek.png" target="_blank">
+      		<img src="img/Webnode_Horacek.png" alt="Miloslav Horáček - brýlové obruby" class="img-responsive img-thumbnail">
+    		</a>
+  			</div>
+
+  			<div class="col-xs-6 col-sm-4 col-md-2">
+    		<a href="img/Webnode_Optika-Holesovice.png" target="_blank">
+      		<img src="img/Webnode_Optika-Holesovice.png" alt="Oční optika Strossmayerovo náměstí" class="img-responsive img-thumbnail">
+    		</a>
+  			</div>
+
+  			<div class="col-xs-6 col-sm-4 col-md-2">
+    		<a href="img/Wordpress_Do-formy.png" target="_blank">
+      		<img src="img/Wordpress_Do-formy.png" alt="Blog Do formy" class="img-responsive img-thumbnail">
+    		</a>
+  			</div>
+
+  			<div class="col-xs-6 col-sm-4 col-md-2">
+    		<a href="img/Facebook_E-shop.png" target="_blank">
+      		<img src="img/Facebook_E-shop.png" alt="Facebook Brýle z Francie" class="img-responsive img-thumbnail">
+    		</a>
+  			</div>
+
+  			<div class="col-xs-6 col-sm-4 col-md-2">
+    		<a href="img/CV_jednoduche.jpg" target="_blank">
+      		<img src="img/CV_jednoduche.jpg" alt="CV jednoduché" class="img-responsive img-thumbnail">
+    		</a>
+  			</div>
+
+  			<div class="col-xs-6 col-sm-4 col-md-2">
+    		<a href="img/CV_designove.jpg" target="_blank">
+      		<img src="img/CV_designove.jpg" alt="CV designové" class="img-responsive img-thumbnail">
+    		</a>
+  			</div>
+
+  		</div>
+
+  		</div>
+
+	</div><!-- konec #fotogalerie -->
+
+
+
+	<!-- Kontakt -->
+	<div id="kontakt">
+
+		<h2>Kontakt</h2>
+
+		<h3>Holka pro všechno</h3>
+			<h4>Tereza Horáčková</h4>
+			<p>Tupolevova 741<br>
+			199 00 Praha 9</p>
+
+		<p><a href="mailto:info@holkaprovsechno.cz">info@holkaprovsechno.cz</a></p>
+
+		<p>Telefon: +420 604 927 588</p>
+
+	</div><!-- konec #kontakt -->
+
+
+
+	<!-- Paticka -->
+	<p>&copy;2016, Tereza Horáčková</p>
+
+	<ul>
+		<li><a href="https://www.facebook.com/holkaprovse">Facebook</a></li>
+	</ul>
+
 </body>
 </html>
